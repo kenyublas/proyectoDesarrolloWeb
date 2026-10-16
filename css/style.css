@@ -1,4 +1,3 @@
-/* ---------- Base ---------- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,7 +38,6 @@ main section:nth-of-type(even) {
   background: #EAF3FB;
 }
 
-/* Contenido fluido y centrado */
 section > h2,
 section > p,
 .nosotros-flex,
@@ -54,7 +52,6 @@ form,
   margin-right: auto;
 }
 
-/* ---------- Header y menú ---------- */
 header {
   position: relative;
   z-index: 5;
@@ -120,7 +117,6 @@ nav a:hover {
   padding: 0.2rem;
 }
 
-/* ---------- Hero ---------- */
 .hero-video-wrapper {
   position: relative;
   min-height: 100vh;
@@ -172,7 +168,6 @@ nav a:hover {
   font-size: 1.05rem;
 }
 
-/* ---------- Botón (transición) ---------- */
 .btn-primario {
   display: inline-block;
   background: #0B5FA5;
@@ -192,7 +187,6 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-/* ---------- FLEXBOX: Nosotros ---------- */
 .nosotros-flex {
   display: flex;
   flex-wrap: wrap;
@@ -220,7 +214,6 @@ nav a:hover {
   font-size: 1.02rem;
 }
 
-/* ---------- GRID: Soluciones y Servicios ---------- */
 .servicios-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -264,7 +257,6 @@ nav a:hover {
   font-size: 0.95rem;
 }
 
-/* ---------- Tabla ---------- */
 .tabla-responsive {
   margin-top: 1rem;
   overflow-x: auto;
@@ -304,7 +296,7 @@ tbody tr:hover {
   background: #DCEBFA;
 }
 
-/* ---------- Certificaciones ---------- */
+
 .logos-grid {
   display: flex;
   flex-wrap: wrap;
@@ -329,7 +321,7 @@ tbody tr:hover {
   transform: translateY(-4px);
 }
 
-/* ---------- Formulario ---------- */
+
 form {
   max-width: 600px;
   display: flex;
@@ -414,7 +406,7 @@ form button {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ---------- Contacto ---------- */
+
 .contacto-lista {
   list-style: none;
   margin-top: 1rem;
@@ -429,7 +421,7 @@ form button {
   margin-right: 0.5rem;
 }
 
-/* ---------- Footer ---------- */
+
 footer {
   background: #073B68;
   color: #CFE6FA;
@@ -442,7 +434,7 @@ footer {
   display: none !important;
 }
 
-/* ---------- Responsividad ---------- */
+
 @media (max-width: 900px) {
   .nav-toggle {
     display: block;
